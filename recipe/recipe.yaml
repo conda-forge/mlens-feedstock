@@ -22,6 +22,7 @@ requirements:
     - python ${{ python_min }}.*
     - pip
     - numpy >=1.11
+    - setuptools
   run:
     - python >=${{ python_min }}
     - numpy >=1.11
